@@ -142,6 +142,8 @@ There are 3 containers in the docker setup:
  - **nodeapp** - container running the frontend
  - **nodescheduler** - container running the check every 60 minutes
 
+`sudo apt install mongo-clients`
+
 To run via docker-compose:
 
 Create your .env file from the example. Set the mongo DB url like:
